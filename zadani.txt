@@ -1,0 +1,8 @@
+Deck-Based Building Strategy Game
+Jako téma semestrální práce z PA2 jsem si vybral budovatelskou strategii.
+Jedná se o hru pro 1-6 hráčů. Kterou bych do budoucna rád rozšířil o možnost hraní proti počítači.
+Program by měl být schopen ze souboru/ů nahrát mapu, definici základních balíčků a dalších startovních podmínek stejně jako definici nákupů a případně i pravidel pro dané kolo.
+Svět ve, kterém se hra odehrává je definován mapou, vítěznými podmínkami a nastavenými jednotkami. Kolo hráče se sestává z tažení několika karet z balíčku a s jejich pomocí aktivování svých jednotek. Množství karet je ovlivněno počtem lidí (kteří plní rozkazy -> více lidí splní více příkazů).
+Tímto se jednotky rozpohybují, začnou těžit, nebo postaví budovu. Délka kola je definována počtem příkazů = karet, které si hráč nalíže na začátku kola. Na konci kola jsou zbylé karty odloženy.
+Jednotky načteny z konfiguračního souboru mohou mít upravené možnosti pohybu, množství bodů které přináší, nebo surovin, které těží.
+Rozhodující faktory pro vítězství jsou také definovány konfiguračními soubory a ve hře tedy může jít o natěžené suroviny, velikost armády, či množství bodů. Tyto faktory jsou kontrolovány vždy na konci kola daného hráče.
